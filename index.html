@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/a0e93e02ce.js" crossorigin="anonymous" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <main class="main">
+
+        <section id="sec-head">
+            <header>
+                <h1 id="h1">Calculadora</h1>
+            </header>
+        </section>
+
+        <section id="sec-calc">
+            <p class="tela"></p>
+            <table class="calculadora">
+                <tr>
+                    <td class="gap"><button class="btn" onclick="clean()">C</button></td>  
+                    <td class="gap"><button class="btn" onclick="backspace()"><i class="fa-solid fa-delete-left"></i></button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('/')"><i class="fa-solid fa-divide"></i></button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('*')">x</button></td>
+                </tr>
+                <tr>
+                    <td class="gap"><button class="btn" onclick="verificar('7')">7</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('8')">8</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('9')">9</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td class="gap"><button class="btn" onclick="verificar('4')">4</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('5')">5</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('6')">6</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td class="gap"><button class="btn" onclick="verificar('1')">1</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('2')">2</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('3')">3</button></td>
+                    <td rowspan="2" class="gap"><button class="btn1" onclick="confirm()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="gap"><button class="btn0" onclick="verificar('0')">0</button></td>
+                    <td class="gap"><button class="btn" onclick="verificar('.')">.</button></td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+</body>
+
+</html>

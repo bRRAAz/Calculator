@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+body{
+    background: rgb(35,77,128);
+    background-color: radial-gradient(circle, rgba(35,77,128,1) 0%, rgba(0,0,0,1) 100%);
+    min-width: 400px;
+    min-height: 500px;
+    font-family: 'Press Start 2P', cursive;
+}
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#sec-calc{
+    background-color: rgb(30, 30, 41);
+    border-radius: 30px;    
+}
+.gap{
+    padding: 1px;
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(131, 131, 139);
+    font-family: 'Press Start 2P', cursive;
+
+}
+.btn1{
+    width: 60px;
+    height: 120px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(131, 131, 139);
+    font-family: 'Press Start 2P', cursive;
+}
+.btn0{
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(131, 131, 139);
+    font-family: 'Press Start 2P', cursive;
+}
+.tela{
+    width: 260px;
+    height: 100px;
+    background-color: rgb(80, 80, 82);
+    border-radius: 20px;
+    border: 15px solid rgb(30, 30, 41);
+    text-align: right;
+    overflow-wrap: break-word;
+}
+#h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: rgb(100, 100, 105);
+}
+.btn1:hover{
+    background-color: rgb(100, 100, 105);
+}
+.btn0:hover{
+    background-color: rgb(100, 100, 105);
+}
